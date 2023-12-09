@@ -6,32 +6,32 @@ import './App.css'
 // import Heading from './Heading'
 // import ColorList from './ColorList'
 //import Slots from './Slots'
-// import ShoppingList from './ShoppingList'
-// import PropertyList from './PropertyList'
+//import ShoppingList from './ShoppingList'
+import PropertyList from './PropertyList'
 // import Clicker from './Clicker'
 // import Clicked from './Clicked'
 //import Counter from './Counter'
 //import Toggler from './Toggler'
 //import ToggleCounter from './ToggleCounter'
-import ColourBoxGrid from './ColourBoxGrid'
+//import ColourBoxGrid from './ColourBoxGrid'
 
-const colours = [
-  "orange",
-  "red",
-  "yellow",
-  "greenyellow",
-  "aqua",
-  "blueviolet",
-  "darkmagenta",
-  "darkturquoise",
-  "deeppink",
-  "limegreen",
-  "navy",
-  "plum",
-  "skyblue",
-  "orangered",
-  "mediumseagreen",
-]
+// const colours = [
+//   "orange",
+//   "red",
+//   "yellow",
+//   "greenyellow",
+//   "aqua",
+//   "blueviolet",
+//   "darkmagenta",
+//   "darkturquoise",
+//   "deeppink",
+//   "limegreen",
+//   "navy",
+//   "plum",
+//   "skyblue",
+//   "orangered",
+//   "mediumseagreen",
+// ]
 
 
 // const properties = [
@@ -44,24 +44,24 @@ const colours = [
 // ];
 
 
-// const data = [
-//   { id: 1, item: 'coffee', quantity: 1, completed: true },
-//   { id: 2, item: 'milk', quantity: 1, completed: false },
-//   { id: 3, item: 'carrots', quantity: 5, completed: false },
-//   { id: 4, item: 'eggs', quantity: 12, completed: false },
-//   { id: 5, item: 'tins of soup', quantity: 6, completed: false }
-// ]
+const data = [
+  { id: 1, item: 'coffee', quantity: 1, completed: true },
+  { id: 2, item: 'milk', quantity: 1, completed: false },
+  { id: 3, item: 'carrots', quantity: 5, completed: false },
+  { id: 4, item: 'eggs', quantity: 12, completed: false },
+  { id: 5, item: 'tins of soup', quantity: 6, completed: false }
+]
 
 
 function App() {
   return <div>
-    <ColourBoxGrid colours={colours} />
+    {/* <ColourBoxGrid colours={colours} /> */}
     {/* <ToggleCounter /> */}
     {/* <Counter /> */}
     {/* <Clicker />
     <Clicked message="HI!!" buttonText="Click Me!" />
     <Clicked message="Please Stop Clicking Me!" buttonText="Do not click!" /> */}
-    {/* <PropertyList properties={properties} /> */}
+    <PropertyList properties={properties} />
     {/* <ShoppingList items={data} /> */}
     {/* <Slots />
     {/* <Heading color="orange" text="Let's Play.." fontSize="48px" />
